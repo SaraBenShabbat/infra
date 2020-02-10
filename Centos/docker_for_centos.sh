@@ -10,6 +10,8 @@ sudo yum install -y docker-ce docker-ce-cli containerd.io
 
 sudo systemctl start docker
 
+sudo systemctl enable docker
+
 sudo systemctl status docker
 
 echo "successfully installed !"
